@@ -1,0 +1,9 @@
+Cuando se realiza una petición GET a la ruta /reportes, el servidor devuelve en formato JSON el contenido completo del arreglo reportes. Si el arreglo contiene uno o varios reportes registrados mediante la ruta POST, estos se enviarán al cliente en forma de lista. En cambio, si aún no se ha registrado ningún reporte, la respuesta será un arreglo vacío ([]).
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
