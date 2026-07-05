@@ -1,0 +1,7 @@
+Cuando se realiza una petición POST a la ruta /registro desde Postman enviando un cuerpo en formato JSON con los datos "nombre": "Maria" y "mensaje": "Hola comunidad", el servidor utiliza express.json() para leer la información recibida. Luego, extrae los valores de nombre y mensaje mediante req.body y construye una respuesta en formato JSON. Esta respuesta confirma que los datos fueron recibidos correctamente y devuelve la misma información enviada por el cliente junto con el estado "Datos recibidos". Por lo tanto, la respuesta del servidor será:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
