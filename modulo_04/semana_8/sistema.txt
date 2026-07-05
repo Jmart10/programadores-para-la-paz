@@ -1,0 +1,2 @@
+1. Qué información muestra cada comando.
+2. Por qué es útil conocer información del sistema cuando se administra un servidor.
