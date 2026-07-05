@@ -1,0 +1,5 @@
+En la ruta /, el servidor responde con el mensaje Servidor activo,
+
+En la ruta /saludo, el servidor devuelve el mensaje Hola comunidad
+
+En la ruta /mensaje/:nombre, se utiliza un parámetro llamado nombre. El servidor obtiene el valor enviado en la URL mediante req.params.nombre y responde con un saludo personalizado, por ejemplo, si se accede a /mensaje/Carlos, la respuesta será "Hola Carlos".
